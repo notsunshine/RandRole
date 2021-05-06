@@ -11,7 +11,6 @@ if not os.path.isdir("Роли"):
 if not os.path.isdir("Бункер"):
      os.mkdir("Бункер")
 
-#coding: "utf-8"
 
 
 player_count = 1
@@ -276,12 +275,6 @@ while player_count < 11 :
     player_stats.close
 
 
-
-
-
-    #print (lines_ba)
-    #print (len(lines_stats_ba))
-    #print (baggage_count)
     player_count += 1
 
 
@@ -392,6 +385,3 @@ while ItEm3 < 2:
     bunker_stats.close
 
     ItEm3 +=1
-#print (lines_f)
-#print (lines_stats_ba)
-
