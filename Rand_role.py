@@ -385,3 +385,5 @@ while ItEm3 < 2:
     bunker_stats.close
 
     ItEm3 +=1
+
+print('Готово...')
